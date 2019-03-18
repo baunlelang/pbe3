@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all%20movie.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Coiny|Rajdhani" rel="stylesheet">
+    <title></title>
+</head>
+
+<body>
+    <div>
+        <center><img class="logo" src="img/Sao-paulo-city-logo.png"></center>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <div id="page">
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <br>
+                    <li><a href="all%20movie.html" target="_blank">All Movies</a></li>
+                    <br>
+                    <li><a href="about.html" target="_blank">About Us</a></li>
+                    <br>
+                    <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                    <br>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="yield">
+        <div class="alert label">
+            This page is a mock-up. The data is hard-coded.
+        </div>
+
+        <main>
+            <section>
+                <h1>Inside Out</h1>
+                <article class="movie-info-">
+                    <a href="all%20movie.html">
+                        <img title="Inside Out" alt="Poster for Inside Out" src="img/c1.jpeg"/>
+                    </a>
+
+                    <div class="info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto commodi deserunt ea et temporibus. Ab amet, assumenda consequuntur eveniet exercitationem in laborum libero modi nisi reprehenderit totam ut vel voluptatibus.</p>
+                        <span class="price"><del>$19.99</del> $14.99</span><br>
+
+                        <b>Year:</b> 2015
+                        <br>
+                        <b>Duration:</b> 106 min
+                        <br>
+                        <b>Language:</b> English
+                        <br>
+                        <b>Genres:</b> Action, Comedy
+                        <br>
+                        <b>Actors:</b> Melissa Golden, Mario Bishop, Gabrielle Grimes, Damion Lowe
+                        <br>
+                        <b>Director:</b> John Doe
+                        <br>
+                    </div>
+                </article>
+                <div class="rental">
+                    <a href="rental-dialog" class="rent-now button">Rent Now</a>
+                    <div id="rental-dialog">
+                    </div>
+                </div>
+                <div class="photo-gallery">
+                    <ul class="photos-list">
+                        <center><img src="img/g1.jpg"></center>
+                        <center><img src="img/g2.jpg"></center>
+                        <center><img src="img/g3.jpg"></center>
+                        <center><img src="img/g4.jpg"></center>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <br>
+        <h3 id="pilih">Choose Language:</h3><br>
+        <form name="MyLang">
+            <input type="checkbox" name="language" value="English" checked>English
+             <input type="checkbox" name="language" value="BMalaysia" checked>Bahasa Malaysia
+             <input type="checkbox" name="language" value="Russia" checked>Russia
+             <input type="checkbox" name="language" value="Korean" checked>Korean
+             <input type="checkbox" name="language" value="Indonesia" checked>Indonesia
+             <br>
+        </form>
+        <div id="1"></div>
+        <script>
+        function makeSelection() {
+        for (var i = 0; i < document.MyLang.language.length; i++) {
+        if (document.MyLang.language[i].checked) {
+        document.getElementById("1").innerHTML = "You've Selected" + document.MyLang.language[i].value;
+        }
+        }
+        }</script>
+        <br>
+        <h3>What Are You Waiting For??</h3>
+        <form name="MyLang">
+            <input type="checkbox" name="language" value="English" checked><b>Rent Now!</b><br>
+            <input type="checkbox" name="language" value="Bmalaysia"><b>Buy Now !!</b><br>
+            <input type="button" name="submit" value="submit" onclick="makeSekection()">
+        </form>
+        <div id="2"></div>
+        <script>
+        function makeSelection() {
+        for (var i = 0; i < document.MyLang.language.length; i++) {
+         if (document.MyLang.language[i].checked) {
+        document.getElementById("2").innerHTML = "You've Selected" + document.MyLang.language[i].value;
+        }
+        }
+        }</script>
+        <script>
+        function makeSelection() {
+        alert("Thank you For Come To Sao Paolo MOvie Store. .Come Again!!"</script>
+        <aside>
+            <div class="related-movies">
+                <h2>Related Movies</h2>
+                <a href="all%20movie.html" class="movie-cover-link">
+                    <center><figure class="movie-cover">
+                        <img title="Dumbo" alt="Poster for Dumbo" src="img/g5.jpg" />
+                        <figcaption>Dumbo</figcaption>
+                        </figure></center>
+                </a>
+                <a href="all%20movie.html" class="movie-cover-link">
+                    <center><figure class="movie-cover">
+                        <img title="Aladdin" alt="Poster for Aladdin" src="img/g6.jpg" />
+                        <figcaption>Aladdin</figcaption>
+                        </figure></center>
+                </a>
+                <a href="all%20movie.html" class="movie-cover-link">
+                    <center><figure class="movie-cover">
+                        <img title="mutants" alt="Poster for The New Mutants" src="img/g7.jpg" />
+                        <figcaption>The New Mutants</figcaption>
+                        </figure></center>
+                </a>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer>
+        <div class="footer-help">
+            <div class="contact">
+                <h4>Contact Us</h4> Get in touch here if you have any queries or issues.
+            </div>
+            <div class="support">
+                <h4>Help & Support</h4> Click here for FAQs, order information, T&Cs, errata and code downloads.
+            </div>
+            <div class="newsletter">
+                <h4>Alerts & Offers</h4> Sign up to our emails for regular updates and exclusive discounts.
+                <form>
+                    <input type="email" placeholder="Enter your email address">
+                    <input type="submit" value="subscribe">
+                </form>
+            </div>
+            <div class="search">
+                <h4>Search Movies</h4>
+                <form>
+                    <input type="text" placeholder="Movie name, year, actors">
+                    <input type="submit" value="search">
+                </form>
+            </div>
+        </div>
+        <div class="back-to-top">
+            <a href="top">⬆ Back to Top.</a>
+        </div>
+        <div class="copyright">
+            &copy; 2015. São Paulo Movie Store.
+        </div>
+        <div class="footer-nav">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="all%20movie.html">All Movies</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+body {
+    background-image: url(img/12.jpg);
+    background-repeat: repeat
+}
+
+.logo {
+    width: 25%;
+    height: 25%;
+}
+
+#page {
+    font-family: 'Acme', sans-serif;
+    text-decoration: none;
+    min-height: 10px;
+    font-size: 150%;
+    text-align: center;
+    list-style: none;
+}
+
+#page li a {
+    text-decoration: none;
+    color: red;
+}
+
+.yield {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.alert label {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.movie-info- {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+.movie-info- img{
+    height: 30%;
+    width: 30%;
+}
+.div info p{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 100%;
+}
+
+.info price {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.rental {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.photo-gallery img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5%; 
+}
+#pilih{
+    text-align: center;
+}
+.related-movies {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 150%;
+}
+.movie-cover img{
+     width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5%;
+}
+.footer-help {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.back-to-top {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}
+
+.footer-nav {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+}

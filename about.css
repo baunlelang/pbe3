@@ -1,0 +1,39 @@
+body {
+    background-image:url(img/12.jpg);
+    background-repeat:repeat
+}
+.logo{
+    width: 25%;
+    height: 25%;
+}
+#page{
+    font-family: 'Acme', sans-serif;
+    text-decoration: none;
+    min-height: 10px;
+    font-size: 150%;
+    text-align: center;
+    list-style: none;
+}
+#page li a {
+    text-decoration: none;
+    color: red;
+}
+.text1{
+    font-family: 'Coiny', cursive;
+    text-decoration: none;
+    min-height: 20px;
+    font-size: 200%;
+    list-style: none;
+    color: firebrick;
+    text-align: center;
+}
+.text2{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 150%;
+    list-style: none;
+    text-align: center;
+}
+.map{
+     width: 60%;
+    height: 30%;
+}
